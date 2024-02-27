@@ -1,5 +1,5 @@
 {% set name = "libcloudspawner" %}
-{% set version = "2.3.1" %}
+{% set version = "2.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/libcloudspawner-{{ version }}.tar.gz
-  sha256: 1f754e78faf7321fcc2f4011f62167b13c69d929d8d489600133a4d3c176834e
+  sha256: bea61c63c5eb0b646404ea164a8f50ba36e7af11cde726ee9dab01a0973c4335
 
 build:
   noarch: python
